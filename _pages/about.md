@@ -2,33 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M2 student in Automatic Control & Signal/Image Processing at Université Paris-Saclay
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image:
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Île-de-France, France</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: false
+  limit: 3
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: false
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an M2 student in **Automatic Control and Signal & Image Processing (ATSI)** at **Université Paris-Saclay**. My main interests are **robotics**, **optimal and nonlinear control**, **model predictive control (MPC)**, **state estimation**, **safety-critical control**, and **multi-agent systems**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My recent work spans both model-based robotics and control theory. At **VinMotion**, I worked on humanoid locomotion control, including rigid-body MPC tuning on the Motion1 humanoid robot and a contact-schedule-based gait-transition strategy for an NMPC locomotion planner. I also developed a semester project on safe multi-robot formation control using distributed consensus control and CBF-QP safety filters.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently looking for an **M2 research internship** in robotics and control, with particular interest in projects that connect rigorous control methods with real robotic systems.
+
+### Research interests
+
+- Robot dynamics and control
+- Optimal control, MPC, iLQR and DDP
+- Nonlinear and safety-critical control
+- State estimation and sensor fusion
+- Legged and humanoid robotics
+- Multi-agent and distributed control
